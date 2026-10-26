@@ -67,4 +67,3 @@ def test_zero_actual_total_returns_no_wape():
 
     assert result["mae"] == pytest.approx(15.0)
     assert result["wape_percent"] is None
-
